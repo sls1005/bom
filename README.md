@@ -35,6 +35,14 @@ Or install:
 go build
 ```
 
+### Usage
+
+```sh
+./bom FILE
+```
+
+See `./bom --help` for more information.
+
 ### Note
 
 + This can only be compiled with Go compiler v1.16 or later. Some changes are required to make it work with an older version of compiler.
