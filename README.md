@@ -8,7 +8,7 @@
 
 A BOM (byte order mark) is a Unicode character that can be added to a text file to specify the byte order or encoding. If it's not added to a UTF-8—encoded file, many softwares won't be able to decode or display the file's content correctly. However, if it's added to a file encoded UTF-8, many softwares won't be able to decode or display the character correctly.
 
-Therefore, the best way to work with the byte order mark isn't to totally accept or prevent it, but to use it when needed and prevent it if possible (or to use it if possible and prevent it if prevention is needed). That's why I made this tool.
+Therefore, the best way to work with the byte order mark isn't to totally accept or prevent it, but to use it when needed and prevent it if possible (or to use it if possible and prevent it if necessary). That's why I made this tool.
 
 ### Requirements
 
