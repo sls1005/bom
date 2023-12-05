@@ -45,15 +45,13 @@ See `./bom --help` for more information.
 
 ### Note
 
-+ This can only be compiled with Go compiler v1.16 or later. Some changes are required to make it work with an older version of compiler.
++ This can only be compiled with Go compiler v1.16 or later. Some changes are required to make it to work with an older version of compiler.
 
 + This does not check if the file is UTF-8—encoded. Please check it with another tool.
 
 + This cannot be used to detect other UTFs' byte order marks (such as those for UTF-16 or UTF-32), nor can it be used to add a BOM for an encoding other than UTF-8.
 
 + Although this cannot be used to detect the encoding, a file with a UTF-8 BOM detected by this program is likely to be UTF-8—encoded.
-
-+ Using this program (without any additional argument) twice on a file cancels each other's effects.
 
 ### References
 
